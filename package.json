@@ -1,0 +1,25 @@
+{
+  "name": "Aktenplatz",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "clean:output": "rimraf dist",
+    "start": "npm run clean:output && parcel src/*.html --dist-dir dist",
+    "build": "npm run clean:output && parcel build src/*.html --dist-dir dist"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.2.1",
+    "autoprefixer": "^10.4.2",
+    "parcel": "^2.2.1",
+    "postcss": "^8.4.5",
+    "postcss-import": "^14.0.2",
+    "tailwindcss": "^3.0.18"
+  },
+  "dependencies": {
+    "acorn": "^8.7.0",
+    "swiper": "^7.4.1"
+  }
+}

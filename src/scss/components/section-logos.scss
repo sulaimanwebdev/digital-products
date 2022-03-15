@@ -1,0 +1,9 @@
+.section-logos {
+    .logos {
+        // @apply flex flex-row flex-wrap lg:space-x-10 items-center justify-evenly;
+    }
+
+    .logo {
+        @apply mix-blend-luminosity flex items-center justify-center;
+    }
+} 

@@ -1,0 +1,18 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import 'components/common.scss';
+@import 'components/header.scss';
+@import 'components/banner.scss';
+@import 'components/footer-banner.scss';
+@import 'components/footer.scss';
+
+// sections
+@import 'components/section-logos.scss';
+@import 'components/section-features.scss';
+@import 'components/section-focus.scss';
+@import 'components/section-reviews.scss';
+@import 'components/section-quote.scss';
+@import 'components/section-impressum.scss';
+@import 'components/section-pricing.scss';

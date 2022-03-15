@@ -1,0 +1,16 @@
+footer {
+    @apply bg-black pt-16 pb-6 px-4;
+}
+
+.footer-menu {
+    @apply flex flex-col space-y-9 lg:flex-row lg:space-x-9 lg:justify-center lg:space-y-0;
+    li {
+        a {
+            @apply text-white hover:text-gray text-sm lg:text-base;
+        }
+    }
+}
+
+.footer-socials {
+    @apply flex space-x-4 justify-center;
+}
