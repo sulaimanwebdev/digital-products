@@ -1,12 +1,5 @@
 .pricing{
-    max-width: 210px;
-    min-width: 210px;
     border: 1px solid rgb(219, 219, 219);
-    width: 100%;
-}
-
-.pricing-title {
-    background-color: #FFF2ED;
 }
 
 
@@ -18,4 +11,83 @@
     border: 2px solid rgb(251 93 30);
     background-color: rgb(251 93 30);
     
+}
+
+
+
+.main-pricing-flex{
+
+        max-width: 1536px;
+        width: 100%;
+        padding-left: 40px;
+        padding-right: 40px;
+
+}
+
+.popular-tag{
+    transform: translateX(-50%);
+}
+
+
+.pricing-cards-flex{
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+}
+
+
+@media (max-width:1280px){
+    .main-pricing-flex{
+        max-width: 1280px;
+
+
+    }
+
+}
+
+
+
+@media (max-width:1247px){
+    .leftbar-pricing{
+       display: none;
+    }
+
+    .pricing{
+        max-width: 100% !important;
+        min-width: 100% !important;
+        width: 100% !important;
+    }
+    .pricing-cards-flex{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        grid-template-rows: 1fr;
+    }
+
+
+    .names-pricing-f{
+        display: block;
+    }
+
+}
+
+@media (max-width: 987px){
+    .pricing-cards-flex{
+        grid-template-columns: 1fr 1fr;
+        gap: 30px;
+    }
+}
+
+
+@media (max-width: 659px){
+    .pricing-cards-flex{
+        grid-template-columns: 1fr;
+        gap: 60px;
+
+    }
+}
+
+@media (max-width: 670px){
+.main-pricing-flex{
+    padding-left: 20px;
+    padding-right: 20px;
+}
 }
