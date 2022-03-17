@@ -26,6 +26,6 @@
     }
 
     .banner-logo {
-        @apply max-w-xs lg:max-w-full;
+        @apply w-full md:max-w-lg lg:max-w-full;
     }
 }
