@@ -94,3 +94,15 @@ var swiper = new Swiper(".mySwiper-review", {
     },
   },
 });
+
+addEventListener("load",() => {
+  var index = 0;
+  const singlewidget = document.querySelectorAll(".single-widget");
+  const classHide = "hide-widget", count = singlewidget.length;
+  nextSlide();
+  function nextSlide() {
+      singlewidget[(index ++) % count].classList.add(classHide);
+      singlewidget[index % count].classList.remove(classHide);
+      setTimeout(nextSlide, 5000);
+  }
+});
